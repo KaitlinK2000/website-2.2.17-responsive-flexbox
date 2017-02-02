@@ -1,0 +1,187 @@
+body {
+	background-color: silver;
+}
+
+
+/* THIS MESSAGE REPRESENTS THE SET BACK POINT */
+
+@media only screen and (min-width: 400px) {
+.section-one {
+	display:flex;
+}
+
+.section-two {
+	display: flex;
+}
+
+.section-three {
+	display: flex;
+}
+
+.section-four {
+	display: flex;
+}
+
+.section-five {
+	display: flex;
+}
+}
+
+.parent {
+	width: 100%;
+	height: 200px;
+	background-color: white;
+}
+
+/* section-one */
+
+.section-one {
+
+	width: 100%;
+}
+
+.section-one-left {
+	width: 40%;
+	height:400px;
+	background-color: cyan; 
+}
+
+.section-one-right {
+	width: 60%;
+	height: 400px;
+	background: gray;
+}
+
+
+/* section-two */
+
+.section-two {
+
+	width: 100%;
+}
+
+.section-two-left {
+	width: 40%;
+}
+
+.section-two-left-top {
+	height: 150px;
+	background-color: red;
+}
+
+.section-two-left-bottom {
+	height: 150px;
+	background-color: orange;
+}
+
+/* middle */
+
+.section-two-middle {
+	width: 30%;
+	height: 300px;
+	background-color: purple;
+}
+
+/* right */
+
+.section-two-right {
+	width: 30%;
+}
+
+.section-two-right-top {
+	height: 150px;
+	background-color: green;
+}
+
+.section-two-right-bottom {
+	height: 150px;
+	background-color: fuchsia;
+}
+
+/* section-three */
+
+.section-three {
+
+	width: 100%;
+}
+
+.section-three-left {
+	width: 70%;
+	height: 400px;
+	background-color: blue;
+}
+
+.section-three-right {
+	width: 30%;
+	height: 400px;
+	background-color: teal;
+}
+
+
+/* section-four */
+
+.section-four {
+	width: 100%;
+}
+
+.section-four-left {
+	width: 70%;
+	height: 400px;
+	background-color: #FF7F50;
+}
+
+
+.section-four-right {
+	 width: 30%;
+	 height: 400px;
+}
+
+.section-four-right-top {
+	height: 50%;
+	background-color: #CD853F;
+}
+
+.section-four-right-bottom {
+	height: 50%;
+	background-color: #000080;
+}
+
+
+
+/* section-five */
+
+.section-five {
+
+	width: 100%;
+}
+
+.section-five-left {
+	width: 70%;
+	height: 400px;
+	background-color: black;
+}
+
+
+.section-five-right {
+	 width: 30%;
+	 height: 400px;
+}
+
+.section-five-right-top {
+	height: 50%;
+	background-color: #3CB371;
+}
+
+.section-five-right-bottom {
+	height: 50%;
+	background-color: #FFDAB9;
+}
+
+
+/* section-six */
+
+.section-six {
+	width: 100%;
+	height: 200px;
+	background-color: #DC143C;
+}
